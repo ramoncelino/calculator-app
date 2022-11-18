@@ -1,4 +1,4 @@
-* {
+ {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,17 +6,22 @@
     transition: all 0.5s ease;
 }
 
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(18, 204, 80), rgb(36, 196, 224));
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 a {
     text-decoration: none;
     color: #fff;
-}
-
-body {
-    background-image: linear-gradient(to bottom right, rgb(18, 204, 80), rgb(36, 196, 224));
 }
 
 .container {
@@ -164,10 +169,10 @@ button#equal {
 footer {
     padding: 1rem;
     bottom: 5rem;
-    position: absolute;
     width: 100%;
-    text-align: center;
-    display: flex;
     color: #fff;
+    text-shadow: #000 1px 0 10px;
     transform-style: flat;
+    margin-top: auto;
+    text-align: center;
 }
