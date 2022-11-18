@@ -1,9 +1,14 @@
- {
+:root {
+    font-size: min(max(1rem, calc(1rem + ((1vw - 0.48rem) * 0.6944))), 1.5rem);
+    min-height: 0vw;
+  }
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: 0;
-    transition: all 0.5s ease;
+    transition: all 500ms ease;
 }
 
 html{
@@ -25,8 +30,8 @@ a {
 }
 
 .container {
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: vw;
     display: grid;
     place-items: center;
 }
@@ -95,7 +100,7 @@ button {
     margin: 5px;
     font-size: 20px;
     cursor: pointer;
-    transition: all 200ms ease;
+    transition: all 200ms ease-in-out;
 }
 
 button:hover {
@@ -167,12 +172,44 @@ button#equal {
 }
 
 footer {
-    padding: 1rem;
-    bottom: 5rem;
-    width: 100%;
+    padding: 0.3rem;
     color: #fff;
     text-shadow: #000 1px 0 10px;
-    transform-style: flat;
     margin-top: auto;
     text-align: center;
+    align-content: center;
 }
+
+footer p{
+    margin: 0.5rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    border-radius: 10%;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github{
+    background-color: #333;
+    color: white;
+  }
