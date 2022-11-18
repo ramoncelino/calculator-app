@@ -167,7 +167,7 @@ footer {
     position: absolute;
     width: 100%;
     text-align: center;
-    display: block;
+    display: flex;
     color: #fff;
     transform-style: flat;
 }
