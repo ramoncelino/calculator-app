@@ -30,10 +30,12 @@ a {
 }
 
 .container {
+    display: flex;
     height: 80vh;
     width: 100vw;
     display: grid;
     place-items: center;
+    margin-top: 2rem;
 }
 
 .calculator {
@@ -172,9 +174,10 @@ button#equal {
 }
 
 footer {
-    padding: 0.3rem;
-    color: #fff;
-    text-shadow: #000 1px 0 10px;
+    background-color: #fff;
+    padding: 1rem;
+    color: #000;
+    text-shadow: #000 0.1rem 0 0.5rem;
     margin-top: auto;
     text-align: center;
     align-content: center;
@@ -185,9 +188,9 @@ footer p{
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 1rem;
+    font-size: 3rem;
+    width: 5rem;
     text-align: center;
     text-decoration: none;
     margin: 0.5rem;
