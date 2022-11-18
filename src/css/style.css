@@ -30,8 +30,8 @@ a {
 }
 
 .container {
-    height: 90vh;
-    width: vw;
+    height: 80vh;
+    width: 100vw;
     display: grid;
     place-items: center;
 }
